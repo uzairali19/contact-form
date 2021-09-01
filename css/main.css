@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
 
+@font-face {
+  font-family: "Poppins";
+  src: url(https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -345,14 +350,16 @@ li {
   position: relative;
 }
 
-.form-style {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-  position: absolute;
-  width: 801px;
-  height: 577px;
-  left: 320px;
-  top: 725px;
+.title {
+  margin-top: 142px;
+}
+
+.title > h2 {
+  font-family: Poppins;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 5px;
+  text-align: center;
 }
