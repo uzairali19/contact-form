@@ -334,7 +334,7 @@ li {
 .background-image {
   background-image: url(../footer-background.svg);
   width: 100%;
-  height: 1500px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   left: 0;
@@ -344,7 +344,7 @@ li {
 .background-tools {
   background-image: url(../footer-tools.svg);
   width: 100%;
-  height: 1450px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -362,4 +362,24 @@ li {
   line-height: 82px;
   letter-spacing: 5px;
   text-align: center;
+}
+
+.content {
+  text-align: center;
+  width: 569px;
+}
+
+.content > p {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.button-margin {
+  margin-left: 180px;
+  margin-bottom: 127px;
 }
