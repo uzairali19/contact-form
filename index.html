@@ -298,7 +298,7 @@
         </div>
       </section>
     </main>
-    <div class="background-image">
+    <footer class="background-image">
       <div class="background-tools">
         <div
           class="
@@ -325,19 +325,20 @@
               method="POST"
               class="p-2"
             >
-              <div class="form-group">
+              <fieldset class="form-group">
                 <label class="text-white col-12">
                   Your name:
                   <input
                     type="text"
                     name="name"
-                    maxlength="50"
+                    maxlength="30"
                     class="form-control"
                     placeholder="Uzair Ali"
+                    required
                   />
                 </label>
-              </div>
-              <div class="form-group">
+              </fieldset>
+              <fieldset class="form-group">
                 <label class="text-white col-12">
                   Your email:
                   <input
@@ -345,10 +346,11 @@
                     name="_replyto"
                     class="form-control"
                     placeholder="uzair@gmail.com"
+                    required
                   />
                 </label>
-              </div>
-              <div class="form-group">
+              </fieldset>
+              <fieldset class="form-group">
                 <label class="text-white col-12">
                   Your message:
                   <textarea
@@ -357,21 +359,19 @@
                     class="form-control"
                     rows="5"
                     placeholder="Write your message here ....."
+                    required
                   ></textarea>
                 </label>
-              </div>
+              </fieldset>
               <!-- your other form fields go here -->
-              <button
-                type="submit"
-                class="btn btn-light text-primary col-4 button-margin"
-              >
+              <button type="submit" class="button col-4 button-margin">
                 Get In Touch
               </button>
             </form>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"

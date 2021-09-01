@@ -380,6 +380,31 @@ li {
 }
 
 .button-margin {
-  margin-left: 180px;
   margin-bottom: 127px;
+  border: 1px solid #7f8cff;
+}
+
+.button {
+  position: absolute;
+  width: 93px;
+  height: 48px;
+  left: 180px;
+  top: calc(50% - 48px / 2 + 57.5px);
+  background: #fff;
+  border: 1px solid #7f8cff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.button:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.button:active {
+  background: #2230d2;
+  color: #fff;
 }
