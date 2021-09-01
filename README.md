@@ -1,65 +1,85 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Contact Form
 
-> One paragraph statement about the project.
+> The project is a training exercise for anyone who wants to apply as a code reviewer at microverse.
 
-![screenshot](./app_screenshot.png)
+# Built With:
 
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://uzairali19.github.io/contact-form/)
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+# Getting Started:
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+Git
+Node, Node package Manager
 
-### Install
+### Setup Local
+
+Use
+
+```
+git clone https://github.com/uzairali19/contact-form.git
+```
+
+to clone the branch directly to your machine
+
+For Linters:
+
+```
+npm install --save-dev hint@6.0.x
+```
+
+```
+npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+```
 
 ### Usage
 
+This is used for learning purposes. Feel free to collaborate.
+
 ### Run tests
+
+To locally run tests using html and css linters.
+
+Use:
+
+For HTML:
+
+```
+npx hint .
+```
+
+For CSS:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
 
 ### Deployment
 
-## Authors
+Make a pull request if your want to contribute. Thanks.
 
-👤 **Author1**
+# Authors:
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Uzair Ali**
+
+- GitHub: [@githubhandle](https://github.com/uzairali19)
+- Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/uzair-ali-964187166/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
+# Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-This repo host an initial code for the tasks performed during the Code Reviewers training.
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
